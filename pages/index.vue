@@ -9,6 +9,6 @@ import Intro from '../components/home/Intro.vue'
 export default {
   components: {
     Intro,
-}
+  }
 }
 </script>

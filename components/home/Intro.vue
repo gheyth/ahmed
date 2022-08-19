@@ -10,8 +10,7 @@
         <p class="text-basic-01 text-2xl mt-3">
           وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ (4)
         </p>
-        <a class="text-white  text-center inline-block border-2 border-white w-full py-1 mt-5 rounded-xl hover:bg-basic-02 hover:border-basic-01 transition-all"
-          href="#Content">
+        <a class="text-white  text-center inline-block border-2 border-white w-full py-1 mt-5 rounded-xl hover:bg-basic-02 hover:border-basic-01 transition-all" href="#Content">
           اَلذَّهَاب إِلَى اَلْمُحْتَوَى
         </a>
       </div>

@@ -22,7 +22,9 @@
       margin-bottom: 20px;
       width: 124px;
     }
-  
+    .all-media div div a{
+      width:280px;
+    }
     .all-media div div a:hover {
       background-color: transparent;
       border: 2px solid #fff;
