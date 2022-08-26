@@ -21,7 +21,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel:'stylesheet', href:'https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css' }
+      { rel:'stylesheet', href:'https://cdn.jsdelivr.net/gh/sidraweb/flaticon-uicons@V1.0.0/uicons.css' }
     ],
     script: [
       { src: 'https://kit.fontawesome.com/1a4bb73a43.js', crossorigin: 'anonymous' },

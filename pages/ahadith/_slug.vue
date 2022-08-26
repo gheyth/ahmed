@@ -1,15 +1,15 @@
 <template>
-  <div>
+  <article>
     <nuxt-content :document="info" />
-  </div>
+  </article>
 </template>
 
 <script>
   export default {
     async asyncData({ $content, params }) {
-      const info = await $content('about', params.slug).fetch()
+      const info = await $content('ahadith', params.slug).fetch()
 
-    return { info }
+      return { info }
+    }
   }
-}
 </script>
