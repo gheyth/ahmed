@@ -1,0 +1,23 @@
+.nuxt-content-container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+}
+.nuxt-content-container h1{
+  color: #94682A;
+  font-weight: 900;
+  font-size:28px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.nuxt-content-container ul{
+  padding-right: 10px;
+}
+.nuxt-content-container ul li{
+  list-style: disc;
+}
+ul li::marker {
+  color: #94682A;
+}
+main{
+}

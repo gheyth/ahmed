@@ -13,3 +13,9 @@
     }
   }
 </script>
+
+<style scoped>
+  article{
+    background-image: url('~assets/img/section-bg.jpg');
+  }
+</style>
