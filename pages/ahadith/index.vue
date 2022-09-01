@@ -2,11 +2,11 @@
   <div>
     <IntroBlog title="بَابُ الْأَحَادِيثِ" info="يَتَنَاوَلُ هَذَا الْبَابُ الْعَدِيدَ مِنَ الْأَحَادِيثِ الْأَكْثَرَ تَدَاوُلًا "/>
     
-    <section class="max py-10 px-10">
+    <section class="list-articles max py-10 px-10">
       <h1 class="font-black text-basic-02 text-3xl mb-4">قائمة الأحاديث</h1>
 
       <ul class="w-4/5 m-auto my-0">
-        <li class="border rounded-md mb-4 p-2 hover:border-r-4 hover:border-basic-02" v-for="article of info" :key="article.slug">
+        <li class="bg-white border border-basic-02 rounded-md mb-4 p-2 hover:border-r-4 hover:border-basic-02" v-for="article of info" :key="article.slug">
           <NuxtLink class="" :to="{ name: 'ahadith-slug', params: { slug: article.slug } }">
             <div class="flex items-center">
               <i class="fi fi-rs-browser text-basic-02"></i>
@@ -32,19 +32,22 @@ import IntroBlog from '../../components/blog/intro-blog.vue'
       return {
         info
       }
-  },
-  components: {
-    IntroBlog
-  },
-  head: {
-    title: "بَابُ الْأَحَادِيثِ "
-  }
+    },
+    components: {
+      IntroBlog
+    },
+    head: {
+      title: "بَابُ الْأَحَادِيثِ "
+    }
   }
 </script>
 
 <style scoped>
   .background{
     background-image: url('~assets/img/background.jpg');
+  }
+  .list-articles{
+    background-image: url('~assets/img/section-bg.jpg');
   }
   i{
     width:16px;
