@@ -3,7 +3,7 @@
     <div>
       <p>التصنيف:</p>
     </div>
-    <section class="print absolute left-8 cursor-pointer w-8 h-8 my-0 mx-auto border border-basic-02 rounded-lg text-xl text-basic-02 bg-white flex items-center justify-center">
+    <section class="print z-30 absolute left-8 cursor-pointer w-8 h-8 my-0 mx-auto border border-basic-02 rounded-lg text-xl text-basic-02 bg-white flex items-center justify-center">
       <i class="fi fi-rr-print w-5 h-5"></i>
     </section>
     <nuxt-content :document="info" />
