@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white z-20 w-full m-auto sticky top-0">
+  <header class="bg-white z-20 w-full m-auto sticky top-0 z-50">
     <div class="h-20 px-8 border-b-2 border-basic-02 flex justify-between items-center">
       <!-- icons for responsive -->
       <div class="icon-resp text-basic-02 text-xl relative">

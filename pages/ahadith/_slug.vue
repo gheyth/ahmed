@@ -20,39 +20,24 @@
         return{title:this.info.title}
     },
     mounted() {
-      //متغير لكل محتوى داخل صندوق
-      let Boxs = document.querySelectorAll(".box")
-      //متغير لايقونات النسخ
-      let Copy = document.querySelectorAll(".fi-br-copy")
-      //متغير نصي لحقوق النسخ
-      let copyright = "[تم نسخ هذا النص من مشروع احمد - حاضنة غيث: https://gheyth.github.io/]"
-      //مصفوفة فارغة
       let listArray = []
-      //متغير لتكرار
-      var i = 0;
-      //كلما كان متغير التكرار اقل من عدد الصناديق اضف واحدا الى المتغير
-      for (i; i < Boxs.length; i++) {
-          //ثم انشئ كائن يحتوي على هذه البيانات
-          const data = {
-              //العنصر
-              element: Boxs[i],
-              //المحتوى النصي للعنصر
-              content: Boxs[i].textContent,
-              //عنصر الايقونة
-              button: Copy[i],
-              //الايدي
-              id: i
-          }
-          //اضف جميع البيانات الى المصفوفة الفارغة
-          listArray.push(data);
-      }
-      //لكل عنصر في المصفوفة
-      listArray.forEach(element => {
-          //كلما تم الضغط على الايقونة في العنصر
+      setTimeout(() => {
+        let Boxs = document.querySelectorAll(".box")
+        let Copy = document.querySelectorAll(".fi-br-copy")
+        let copyright = "[تم نسخ هذا النص من مشروع احمد - حاضنة غيث: https://gheyth.github.io/]"
+        var i = 0;
+        for (i = 0; i < Boxs.length; i++) {
+            const data = {
+                element: Boxs[i],
+                content: Boxs[i].textContent,
+                button: Copy[i],
+                id: i
+            }
+            listArray.push(data);
+        }
+        listArray.forEach(element => {
           element.button.onclick = function() {
-              //قم بالنسخ الى الحافضة المحتوى النصي للعنصر مع حقوق النسخ
               navigator.clipboard.writeText(element.content + copyright);
-              //اظهر اشعار انه تم النسخ بنجاح
               Swal.fire({
                   position: 'bottom-start',
                   icon: 'success',
@@ -61,13 +46,13 @@
                   timer: 1300,
               })
           }
-      });
-      //متغير لايقونة الطباعة
-      let PrintPage = document.querySelector(".print");
-      //عند الضغط على ايقونة الطباعة: اطبع الصفحة
-      PrintPage.addEventListener("click", () => {
-          window.print()
-      })
+        });
+        let PrintPage = document.querySelector(".print");
+        PrintPage.addEventListener("click", () => {
+            window.print()
+        })
+        console.log("JvaScript start")
+      }, 2000);
     }
   }
 </script>
