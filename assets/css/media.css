@@ -35,4 +35,7 @@
     .list-articles h1{
       text-align: center;
     }
+    .aside{
+      height: 78vh;
+    }
 }
