@@ -1,9 +1,9 @@
 <template>
-  <div class="all">
+  <div>
     <Aside />
-    <div id="allcontent">
+    <div>
       <Navbar />
-      <main class=" ">
+      <main>
         <Nuxt />
       </main>
       <Footer />
@@ -27,10 +27,5 @@ export default {
   .content{
     width: calc(100% - 96px);
     float: left;
-  }
-  .all{
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
   }
 </style>

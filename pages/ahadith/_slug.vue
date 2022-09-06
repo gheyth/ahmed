@@ -1,8 +1,8 @@
 <template>
   <article  class="py-10">
     <section class="flex justify-between items-center w-4/5 my-0 mx-auto">
-      <section class="h-8 text-base text-basic-02 bg-white flex items-center justify-center rounded-lg border border-basic-02 px-1">
-        <p class="font-black">{{"موضوع الحديث عن" + " " + info.subject }}</p>
+      <section class="h-8 text-base text-basic-02 bg-white flex items-center justify-center rounded-lg border border-basic-02 px-2">
+        <p class="font-black">{{"عن" + " " + info.subject }}</p>
       </section>
       <section class="z-30 cursor-pointer text-xl text-basic-02 flex items-center justify-center">
         <div class="print bg-white ml-2 flex items-center justify-center w-8 h-8 border border-basic-02 rounded-lg text-xl text-basic-02">

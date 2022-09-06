@@ -1,5 +1,5 @@
 <template>
-  <footer class="max w-full m-auto bg-basic-02 h-64 flex justify-center items-center">
+  <footer class="w-full m-auto bg-basic-02 h-64 flex justify-center items-center">
     <div class="">
       <img class="w-24 m-auto" src="../assets/img/logo-footer.png">
       <p class="my-2 text-center font-semibold leading-8 text-white">جميع الحقوق محفوظة الى غَيْثْ</p>

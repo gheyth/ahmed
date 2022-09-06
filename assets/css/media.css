@@ -1,3 +1,17 @@
+@media (max-width:1100px){
+  #Content div h1{
+    margin-bottom: 50px;
+  }
+  .cards {
+    display: block;
+  }
+  .card{
+    margin-top: 20px;
+  }
+  .more{
+    margin-top:60px;
+  }
+}
 @media (max-width:800px){
   .all-media div {
       flex-direction: column;
@@ -37,5 +51,17 @@
     }
     .aside{
       height: 78vh;
+    }
+    #What-Ghayth div h1, #Content div h1{
+      font-size: 40px;
+    }
+    #What-Ghayth div p{
+      font-size: 18px;
+    }
+    #Content{
+      height: auto;
+    }
+    #Content button{
+      margin-top: 0;
     }
 }
