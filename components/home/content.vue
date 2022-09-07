@@ -33,3 +33,14 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  mounted() {
+    let ButtonMore = document.querySelector(".more");
+    ButtonMore.addEventListener("click", () => {
+      OpenAside()
+    })
+  }
+}
+</script>

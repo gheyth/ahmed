@@ -4,7 +4,6 @@ console.log("START JS FROM index.js")
 let navOpen = document.querySelector(".icon-resp")
 let list = document.getElementsByTagName("aside")
 let AllContent = document.getElementById("allcontent")
-let ButtonMore = document.querySelector(".more");
 
 navOpen.addEventListener('click', () => {
   OpenAside()
@@ -18,10 +17,6 @@ LinksAside.forEach(element => {
     OpenAside()
   })
 });
-
-ButtonMore.addEventListener("click", () => {
-  OpenAside()
-})
 
 function OpenAside() {
   navOpen.children[0].classList.add("hidden")
