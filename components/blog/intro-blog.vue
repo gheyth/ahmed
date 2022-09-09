@@ -1,6 +1,6 @@
 <template>
   <div class="background w-full h-96 flex justify-center items-center">
-    <div class="text-basic-01 ">
+    <div class="text-basic-01 text-border">
       <h1 class="font-black text-5xl text-center">{{title}}</h1>
       <p class="text-3xl mt-5 text-center">{{info}}</p>
       <!-- <p class="number text-base mt-10 text-center border border-basic-02 w-60 m-auto rounded-md"></p> -->
@@ -24,5 +24,12 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 25vh;
+  }
+  .text-border{
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   }
 </style>
