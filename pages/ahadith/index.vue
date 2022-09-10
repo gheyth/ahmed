@@ -2,19 +2,19 @@
   <div>
     <IntroBlog title="بَابُ الْأَحَادِيثِ" info="يَتَنَاوَلُ هَذَا الْبَابُ الْعَدِيدَ مِنَ الْأَحَادِيثِ الْأَكْثَرَ تَدَاوُلًا "/>
     
-    <section class="list-articles max py-10 px-10">
+    <section class="list-articles max py-10 px-10 h-screen">
       
       <section class="flex justify-between items-center w-4/5 my-7 mx-auto">
         
         <section class="h-8 text-base text-basic-02 bg-white flex items-center justify-center rounded-lg border border-basic-02 px-2">
           <p class="font-black">قائمة الأحاديث</p>
         </section>
-        <section class="z-30 cursor-pointer text-xl text-basic-02 flex items-center justify-center">
+        <section class="z-30 w-18 justify-between cursor-pointer text-xl text-basic-02 flex items-center">
 
-        <a target="_blank" href="https://github.com/gheyth/ahmed/issues/new" class="ml-2 bg-white flex items-center justify-center w-8 h-8 border border-basic-02 rounded-lg text-xl text-basic-02">
+        <a target="_blank" href="https://github.com/gheyth/ahmed/issues/new" class=" bg-white flex items-center justify-center w-8 h-8 border border-basic-02 rounded-lg text-xl text-basic-02">
           <i class="fi fi-rr-sensor-alert w-5 h-5"></i>
         </a>
-        <NuxtLink to="/" class="ml-2 bg-white flex items-center justify-center w-8 h-8 border border-basic-02 rounded-lg text-xl text-basic-02">
+        <NuxtLink to="/" class=" bg-white flex items-center justify-center w-8 h-8 border border-basic-02 rounded-lg text-xl text-basic-02">
           <i class="fi fi-rr-angle-double-small-left w-5 h-5"></i>
         </NuxtLink>
         </section>
