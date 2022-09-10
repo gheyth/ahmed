@@ -32,4 +32,9 @@ export default {
     -1px 1px 0 #000,
     1px 1px 0 #000;
   }
+  @media (min-width:2050px){
+    .background{
+      height: 80vh;
+    }
+  }
 </style>

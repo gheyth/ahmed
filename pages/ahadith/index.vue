@@ -2,7 +2,7 @@
   <section>
     <IntroBlog title="بَابُ الْأَحَادِيثِ" info="يَتَنَاوَلُ هَذَا الْبَابُ الْعَدِيدَ مِنَ الْأَحَادِيثِ الْأَكْثَرَ تَدَاوُلًا "/>
 
-    <div class="list-articles py-10 px-10 h-screen">
+    <div class="list-articles py-10 px-10">
       <div class="max">
         <div class="flex justify-between items-center w-4/5 my-7 mx-auto">
         

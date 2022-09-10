@@ -2,7 +2,7 @@
   <section>
     <intro-blog title="بَابُ الْأَخْلَاَقِ" info="يَتَنَاوَلُ هَذَا الْبَابِ الْأَحَادِيثَ الَّتِي تَتَكَلَّمُ عَنِ الْأدَبِ وَ الْأَخْلَاَقِ" />
 
-    <div class="list-articles py-10 px-10 h-screen">
+    <div class="list-articles py-10 px-10 h-96">
       <div class="max">
         <div class="flex justify-between items-center w-4/5 my-7 mx-auto">
         

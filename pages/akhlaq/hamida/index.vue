@@ -2,7 +2,7 @@
   <section>
     <IntroBlog title="الْأَخْلَاَقُ الْحَمِيدَةُ" info="هَيْئَةٌ لِلنَّفْسِ رَاسِخَةٌ تَصْدُرُ عَنْهَا أَفْعَالٌ حَسَنَةٌ"/>
     
-    <div class="list-articles py-10 px-10 h-screen">
+    <div class="list-articles py-10 px-10">
       <div class="max">
         <div class="flex justify-between items-center w-4/5 my-7 mx-auto">
           
