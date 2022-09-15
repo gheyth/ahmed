@@ -24,8 +24,7 @@ export default {
 </script>
 
 <style>
-  .content{
-    width: calc(100% - 96px);
-    float: left;
+  main{
+    background-image: url('~assets/img/section-bg.jpg');
   }
 </style>

@@ -1,9 +1,9 @@
 <template>
-  <section class="all-media calc w-full m-auto relative">
-    <video loop muted autoplay class="w-full vd calc">
+  <section class="all-media w-full m-auto relative z-10">
+    <video loop muted autoplay class="w-full vd calc-h">
       <source src="~assets/intro.mp4" type="video/mp4">
     </video>
-    <div class="absolute top-0 justify-center items-center flex w-full calc flex-wrap	">
+    <div class="absolute top-0 justify-center items-center flex w-full calc-h flex-wrap	">
       <div>
         <h1 class="text-basic-01 text-7xl font-black">{{title}}</h1>
         <p class="text-basic-01 text-2xl mt-3">{{aya}}</p>
@@ -25,9 +25,6 @@ export default {
 }
 </script>
 <style>
-  .all-media{
-    overflow: hidden;
-  }
   video {
     width: 100vw;
     object-fit: cover;
@@ -36,10 +33,7 @@ export default {
     left: 0;
     z-index: -1;
   }
-  .calc{
-    height: calc(100vh - 80px);
-  }
   .vd{
-        filter: brightness(0.3);
+    filter: brightness(0.3);
   }
 </style>

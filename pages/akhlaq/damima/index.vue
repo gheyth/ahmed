@@ -63,7 +63,4 @@ import IntroBlog from '~/components/blog/intro-blog.vue'
   .background{
     background-image: url('~assets/img/back-akhlaq.jpg');
   }
-  .list-articles{
-    background-image: url('~assets/img/section-bg.jpg');
-  }
 </style>

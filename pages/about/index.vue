@@ -20,9 +20,6 @@
 </template>
 
 <style scoped>
-  section{
-    background-image: url('~assets/img/section-bg.jpg');
-  }
   h1{
     font-weight: 900;
     font-size: 30px;

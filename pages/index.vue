@@ -5,7 +5,6 @@
       <WhatAhmed />
       <Content />
     </section>
-    
   </div>
 </template>
 
@@ -21,9 +20,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-  .main-for-main{
-    background-image: url('~assets/img/section-bg.jpg');
-  }
-</style>
