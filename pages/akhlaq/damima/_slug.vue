@@ -1,6 +1,6 @@
 <template>
   <article  class="py-10 max">
-    <Slug :subject=info.subject link="/ahadith/damima" />
+    <Slug :subject=info.subject link="/akhlaq/damima" />
     <nuxt-content :document="info" />
   </article>
 </template>
