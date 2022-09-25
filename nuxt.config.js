@@ -20,7 +20,7 @@ export default {
       { name:'apple-mobile-web-app-status-bar-style', content:'#94682A' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
       { rel:'stylesheet', href:'https://cdn.jsdelivr.net/gh/sidraweb/flaticon-uicons@V1.0.0/uicons.css' }
     ],
     script: [
