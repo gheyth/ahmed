@@ -20,7 +20,7 @@
 <script>
 export default {
   props: {
-    subject: Object,
+    subject: String,
     link: String
   }
 }
