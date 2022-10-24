@@ -1,4 +1,4 @@
-console.log("START JS FROM index.js")
+console.log("START /assets/js/index.js")
 
 //FOR OPEN AND CLOSE NAVBAR 
 let navOpen = document.querySelector(".icon-resp")
